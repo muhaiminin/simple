@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+  web:
+    build: web
+    image: testme/web:1
+    ports:
+      - 127.0.0.1:8000:80
+    depends_on:
+      - app
+  app:
+    build: server
+    image: testme/app:1
+    ports:
+      - 127.0.0.1:8083:8080
+

@@ -1,0 +1,3 @@
+*
+!app/application.yml
+!app/target/app-*.jar

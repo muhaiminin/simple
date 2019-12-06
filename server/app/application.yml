@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  name: simple
+
+simple:
+  clients:
+  - id: 1
+    name: Simply Coffee
+  - id: 7
+    name: Nuts and Bolts
+
